@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Translate This - Translate Text</title>
+  <style>
+   * {padding: 0; margin: 0;}
+  body {font: 100% arial, helvetica, sans-serif; background-color: #ddd; text-align: center; color: black; text-shadow:0 2px white;}
+  h1 {background: #0483e4; /* Old browsers */ background: -moz-linear-gradient(top, #0483e4 0%, #005bab 100%); /* FF3.6+ */ width: 100%;
+  padding-top: 5px; padding-bottom: 8px; margin-bottom: 20px; box-shadow: 0 0 4px #000000; -moz-box-shadow: 0 0 3px #000000; color: #ddd; text-shadow: 0 2px black;}
+  p {font-size: 16px; font-weight: bold; margin-top: 20px; margin-bottom: 20px; padding-left: 10px; padding-right: 10px;}
+  a,b {color: #797978;}     
+  textarea, input {background: -moz-linear-gradient(270deg, #EBEFF2, #D4D9DF) repeat scroll 0 0 transparent;
+      border-color: #BEC5CC #B0B0B0 #ACACAC; border-radius: 3px 3px 3px 3px; border-style: solid; border-width: 1px;
+      padding: 6px; display: block; height: 60px; width: 300px; resize: none; margin: auto; margin-bottom: 20px;}
+  input {height: auto; width: auto;}
+  input[type=text]:focus, textarea:focus, input[type=email]:focus, input[type=reset]:focus, input[type=reset]:active, input[type=submit]:focus, input[type=submit]:active
+{
+-webkit-box-shadow: 0px 0px 4px #005BAB;
+-moz-box-shadow: 0px 0px 4px #005BAB;
+box-shadow: 0px 0px 4px #005BAB; 
+border-color: #005BAB;
+outline: none;
+}
+</style> 
+</head> 
+<body>
+
+<h1>Translate This - Translate Text</h1> 
+<p>Paste or type the text you would like to translate <br /><span style="font-size: 10px;">(if a URL is entered, the URL entered will be translated)</span>. <br />The translated text will be copied to your keyboard.</p>
+
+<form>
+<textarea id="text"></textarea>
+<p>Optional: Specify a language code to translate the text into. If none is entered the language code in your settings will be used.</p>
+<input name="language" type="text" id="lang_code" maxlength="5">
+<input type="submit" value="Translate!" id="translate">
+</form>
+
+</body> 
+</html>
