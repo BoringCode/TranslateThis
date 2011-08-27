@@ -1,4 +1,4 @@
-//Translate This - v1.7.2
+//Translate This - v1.7.3
 
 // Import the APIs we need.
 var contextMenu = require("context-menu");
