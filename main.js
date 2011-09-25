@@ -118,7 +118,8 @@ exports.main = function() {
   
   //menu item for small groups of text, run the translate function if clicked
   var menuItem = contextMenu.Item({ 
-    label: "Translate This - Selection",     
+    label: "Translate This - Selection", 
+    image: data.url('icon-small.png'),
     // Show this item when a selection exists. 
     context: contextMenu.SelectionContext(), 
     // When this item is clicked, post a message to the item with the
@@ -135,6 +136,7 @@ exports.main = function() {
   //menu item for links, run the translate page function if clicked
   var link = contextMenu.Item({
   label: "Translate This! - Link",
+  image: data.url('icon-small.png'),
   // Show this item when a selection exists.
   context: contextMenu.SelectorContext("a[href]"),
   // When this item is clicked, post a message to the item with the link's URL
