@@ -247,5 +247,4 @@ exports.onUnload = function (reason) {
      simpleStorage.storage.translate_page = undefined; 
      simpleStorage.storage.lang_code = undefined; 
      simpleStorage.storage.shortcut = undefined;
-  }
-};
+  }};
