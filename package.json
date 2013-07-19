@@ -4,7 +4,7 @@
 	"author": "BoringCode",
 	"url": "https://github.com/BoringCode/TranslateThis",
 	"dependencies": ["api-utils", "addon-kit"],
-	"version": "3.0",
+	"version": "3.0.1",
 	"fullName": "Translate This!",
 	"id": "jid0-k75TfRGfOXPHfEZmJ9cKu5eCgLc",
 	"name": "translate-this",
