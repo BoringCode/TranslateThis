@@ -1,15 +1,13 @@
 {
-	"license": "Mozilla Public License Version 1.1",
 	"description": "Translate the whole entire page or just a selection using Google Translate.",
 	"author": "BoringCode",
 	"url": "https://github.com/BoringCode/TranslateThis",
-	"dependencies": ["api-utils", "addon-kit"],
-	"version": "3.0.1",
+	"license": "MPL 2.0",
+	"version": "3.0.2",
 	"fullName": "Translate This!",
 	"id": "jid0-k75TfRGfOXPHfEZmJ9cKu5eCgLc",
 	"name": "translate-this",
 	"icon": "./data/icon.png",
-	"icon64": "./data/icon.png",
     "preferences": [
 	    {
 		    "name": "newTab",
