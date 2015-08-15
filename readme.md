@@ -19,6 +19,12 @@ Install jpm (jetpack manager) using npm
 npm install jpm -g
 ```
 
+Install dependancies
+
+```
+npm install
+```
+
 Test Translate This! with a blank Firefox profile
 
 ```
