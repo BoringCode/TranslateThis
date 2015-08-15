@@ -1,4 +1,4 @@
-#[Translate This!](https://addons.mozilla.org/en-US/firefox/addon/translate-this/) (v4.0.0) <img src="https://raw.githubusercontent.com/BoringCode/TranslateThis/master/icon.png" alt="Icon" align="right" height="48"/>
+#[Translate This!](https://addons.mozilla.org/en-US/firefox/addon/translate-this/) (v3.5.0) <img src="https://raw.githubusercontent.com/BoringCode/TranslateThis/master/icon.png" alt="Icon" align="right" height="48"/>
 
 Translate the whole entire page or just a selection using [Google Translate](http://translate.google.com). 
 

@@ -6,7 +6,7 @@
   "author": "Bradley Rosenfeld",
   "url": "https://github.com/BoringCode/TranslateThis",
   "license": "MPL-2.0",
-  "version": "4.1.0",
+  "version": "3.5.0",
   "main": "lib/main.js",
   "permissions": [
     "multiprocess"
@@ -18,13 +18,6 @@
       "title": "Open translations in new tab?",
       "type": "bool",
       "value": true
-    },
-    {
-      "name": "inlineTranslate",
-      "title": "Enable inline whole page translations? (experimental)",
-      "type": "bool",
-      "value": false,
-      "description": "Loads Google Website Translator on the current page"
     },
     {
       "name": "keyCode",
