@@ -1,3 +1,5 @@
+*Note* This is a beta branch that implements inline page translate. It may never be released because of Mozilla AMO policies.
+
 #[Translate This!](https://addons.mozilla.org/en-US/firefox/addon/translate-this/) (v4.0.0) <img src="https://raw.githubusercontent.com/BoringCode/TranslateThis/master/icon.png" alt="Icon" align="right" height="48"/>
 
 Translate the whole entire page or just a selection using [Google Translate](http://translate.google.com). 

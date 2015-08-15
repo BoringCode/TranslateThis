@@ -6,7 +6,7 @@
   "author": "Bradley Rosenfeld",
   "url": "https://github.com/BoringCode/TranslateThis",
   "license": "MPL-2.0",
-  "version": "4.1.0",
+  "version": "4.0.0",
   "main": "lib/main.js",
   "permissions": [
     "multiprocess"
