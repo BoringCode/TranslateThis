@@ -1,0 +1,12 @@
+.DS_Store
+
+*.xpi
+/screenshots
+
+*.svg
+
+/.git
+.gitignore
+.gitattributes
+
+.jpmignore
