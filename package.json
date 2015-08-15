@@ -1,13 +1,15 @@
 {
-	"description": "Translate the whole entire page or just a selection using Google Translate.",
-	"author": "BoringCode",
-	"url": "https://github.com/BoringCode/TranslateThis",
-	"license": "MPL 2.0",
-	"version": "4.0",
-	"fullName": "Translate This!",
+	"name": "translatethis",
+	"title": "Translate This!",
 	"id": "jid0-k75TfRGfOXPHfEZmJ9cKu5eCgLc",
-	"name": "translate-this",
-	"icon": "./data/icon.png",
+	"description": "Translate the whole entire page or just a selection using Google Translate.",
+	"author": "Bradley Rosenfeld",
+	"url": "https://github.com/BoringCode/TranslateThis",
+	"license": "MPL-2.0",
+	"version": "4.0.0",
+	"main": "lib/main.js",
+	"permissions": ["multiprocess"],
+	"icon": "icon.png",
     "preferences": [
 	    {
 		    "name": "newTab",
@@ -16,8 +18,8 @@
 		    "value": true
 		},
 		{
-		    "description": "Keyboard shortcut used to translate current page.",
 		    "name": "keyCode",
+		    "description": "Keyboard shortcut used to translate current page.",
 		    "type": "string",
 		    "value": "t",
 		    "title": "Keyboard Shortcut (CTRL+ALT+Your Key)"
