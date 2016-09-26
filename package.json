@@ -7,7 +7,7 @@
   "url": "https://github.com/BoringCode/TranslateThis",
   "homepage": "https://github.com/BoringCode/TranslateThis",
   "license": "MPL-2.0",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "main": "lib/main.js",
   "engines": {
     "firefox": ">= 38.0a1"
