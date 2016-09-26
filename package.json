@@ -5,12 +5,16 @@
   "description": "Translate the whole entire page or just a selection using Google Translate.",
   "author": "Bradley Rosenfeld",
   "url": "https://github.com/BoringCode/TranslateThis",
+  "homepage": "https://github.com/BoringCode/TranslateThis",
   "license": "MPL-2.0",
   "version": "3.5.0",
   "main": "lib/main.js",
-  "permissions": [
-    "multiprocess"
-  ],
+  "engines": {
+    "firefox": ">= 38.0a1"
+  },
+  "permissions": {
+    "multiprocess": true
+  },
   "icon": "icon.png",
   "preferences": [
     {
